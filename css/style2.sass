@@ -1,0 +1,39 @@
+body
+	font-size:14px
+
+h1
+	text-align:center
+	color:steelblue
+	font-size:3em
+
+.container
+	width:90%
+	height:500px
+	background:lightblue
+	margin:auto
+	display:flex
+	//flex-direction:column
+	//flex-wrap:wrap
+	
+
+.item
+	background:text-align
+	display:flex
+	align-items: center
+	justify-content: center;
+	flex-basis:200px
+	flex-grow: 0
+	margin:10px
+	//flex:0 1 auto
+	background:teal
+	color:#fff
+	&:nth-child(even)
+		background:steelblue
+	
+	&:nth-child(1)
+		flex-grow: 1
+		flex-shrink:2
+	&:nth-child(2)
+		flex-grow: 1
+		flex-shrink:2
+	

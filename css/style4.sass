@@ -1,0 +1,38 @@
+.content
+	border:5px solid lightcoral
+	height:500px
+
+.item
+	margin:5px
+	background:DeepSkyBlue
+	color:white
+	text-align:center
+	line-height:50px
+	font-weight:600
+
+
+.content
+	display:flex
+	//flex-direction:column
+	flex-wrap:wrap
+	//justify-content:space-around
+	//align-items:center
+	align-content:space-around
+
+
+.item
+	width:10%
+	height:200px
+	//flex-grow:0
+	flex-shrink:1
+
+.item:nth-child(2)
+	//height:300px
+	//order:-1
+	//flex-grow:2
+	//flex-shrink:2
+	//flex-basis:39px
+	flex 2 3 30px
+	align-self:stretch
+	height:auto
+

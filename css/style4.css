@@ -1,0 +1,30 @@
+.content {
+  border: 5px solid lightcoral;
+  height: 500px;
+}
+
+.item {
+  margin: 5px;
+  background: DeepSkyBlue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.item {
+  width: 10%;
+  height: 200px;
+  flex-shrink: 1;
+}
+
+.item:nth-child(2) {
+  align-self: stretch;
+  height: auto;
+}
